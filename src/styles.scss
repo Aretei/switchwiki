@@ -1,0 +1,42 @@
+$font-stack: Verdana, sans-serif;
+$light-blue: #ccffff;
+$dark-gray: #3b3d3d;
+
+.main {
+    background-color: $light-blue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+};
+
+.header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-evenly;
+    font: $font-stack;
+};
+
+.home {
+    background-image: url("https://www.alexotos.com/wp-content/uploads/2020/07/DSC08161.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loginField {
+    background-image: url('https://www.alexotos.com/wp-content/uploads/2019/10/DSC05720.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 77vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10vh;
+    
+}
