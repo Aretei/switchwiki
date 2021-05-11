@@ -10,7 +10,7 @@ CREATE TABLE sp_users
 
 DROP TABLE IF EXISTS sp_switches;
 
-CREATE TABLE sp_switches
+CREATE TABLE sp_switches\
 (
     id SERIAL PRIMARY KEY,
     name VARCHAR(120),

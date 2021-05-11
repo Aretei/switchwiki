@@ -12,6 +12,8 @@ const switchCtrl = require('./controllers/controllers')
 
 const authCtrl = require('./controllers/authcontroller')
 
+app.use(express.static(`${__dirname}/../build`))
+
 const { PORT, CONNECTION_STRING, SESSION_SECRET } = process.env
 
 app.use(express.json())
